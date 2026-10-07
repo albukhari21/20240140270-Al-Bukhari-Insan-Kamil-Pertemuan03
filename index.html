@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Profil biografi Ir. Soekarno, Proklamator dan Presiden Pertama Republik Indonesia. Proyek Tugas Praktikum Pemrograman Web - HTML5 Semantik dan CSS3 Responsif.">
+  <title>Biografi Ir. Soekarno - Proklamator & Presiden Pertama RI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ========================================================
+       BAGIAN HEADER: Landmark Kepala Halaman
+       ======================================================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <span class="header-badge">Pahlawan Nasional Indonesia</span>
+      <h1 class="header-title">Ir. Soekarno</h1>
+      <p class="header-subtitle">
+        Proklamator Kemerdekaan, Pemikir Bangsa, dan Presiden Pertama Republik Indonesia (1945–1967)
+      </p>
+    </div>
+  </header>
+
+  <!-- ========================================================
+       BAGIAN NAVIGASI: Menu Utama Horizontal
+       ======================================================== -->
+  <nav class="site-nav" aria-label="Navigasi Halaman Utama">
+    <div class="container">
+      <ul class="nav-list">
+        <li><a href="#profil" class="nav-link">Profil</a></li>
+        <li><a href="#perjuangan" class="nav-link">Linimasa Perjuangan</a></li>
+        <li><a href="#gagasan" class="nav-link">Gagasan Besar</a></li>
+        <li><a href="#refleksi" class="nav-link">Refleksi Nilai</a></li>
+        <li><a href="#buku-tamu" class="nav-link">Buku Tamu</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ========================================================
+       PEMBUNGKUS LAYOUT UTAMA (2 Kolom Desktop: Konten + Sidebar)
+       ======================================================== -->
+  <div class="container layout-wrapper">
+
+    <!-- ========================================================
+         KONTEN INTI HALAMAN (<main>)
+         ======================================================== -->
+    <main class="main-content">
+
+      <!-- SEKSI 1: PROFIL TOKOH -->
+      <section id="profil" class="card-section">
+        <h2 class="section-title">Profil &amp; Riwayat Singkat</h2>
+        
+        <figure class="profile-figure">
+          <img 
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Presiden_Sukarno.jpg/480px-Presiden_Sukarno.jpg" 
+            alt="Potret resmi Ir. Soekarno mengenakan peci hitam dan jas kepresidenan"
+            width="480"
+            height="600"
+            loading="lazy"
+            class="profile-img"
+          >
+          <figcaption class="profile-caption">
+            Ir. Soekarno (1901–1970) — Sosok karismatik yang membacakan Teks Proklamasi Kemerdekaan Republik Indonesia pada 17 Agustus 1945.
+          </figcaption>
+        </figure>
+
+        <p class="paragraph">
+          Dr. (H.C.) Ir. H. Soekarno (lahir di Surabaya, Jawa Timur, 6 Juni 1901 – meninggal di Jakarta, 21 Juni 1970) adalah tokoh sentral perjuangan kemerdekaan Indonesia. Dikenal akrab dengan sapaan <strong>Bung Karno</strong>, beliau menempuh pendidikan teknik arsitektur di <em>Technische Hoogeschool te Bandoeng</em> (sekarang Institut Teknologi Bandung / ITB) dan lulus pada tahun 1926.
+        </p>
+        <p class="paragraph">
+          Sebagai orator ulung dan intelektual pergerakan, Soekarno mendedikasikan hidupnya untuk menyatukan beragam elemen suku, agama, dan golongan di Nusantara. Bersama Mohammad Hatta, beliau memproklamasikan kedaulatan bangsa dan meletakkan fondasi filosofis Indonesia merdeka.
+        </p>
+      </section>
+
+      <!-- SEKSI 2: LINIMASA PERJUANGAN -->
+      <section id="perjuangan" class="card-section">
+        <h2 class="section-title">Linimasa Jejak Perjuangan</h2>
+        <p class="section-desc">Tonggak sejarah penting kiprah perjuangan Bung Karno dalam merebut dan mempertahankan kemerdekaan:</p>
+        
+        <ol class="timeline-list">
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <time datetime="1927" class="timeline-year">1927</time>
+              <h3 class="timeline-heading">Pendirian Partai Nasional Indonesia (PNI)</h3>
+            </div>
+            <p class="timeline-text">
+              Mendirikan PNI di Bandung dengan asas <em>non-kooperasi</em> terhadap pemerintah kolonial Hindia Belanda, bertujuan mewujudkan Indonesia merdeka secara berdaulat penuh.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <time datetime="1930" class="timeline-year">1930</time>
+              <h3 class="timeline-heading">Pledoi Monumental "Indonesia Menggugat"</h3>
+            </div>
+            <p class="timeline-text">
+              Menyampaikan pidato pembelaan spektakuler di hadapan Pengadilan Negeri Bandung (Landraad) yang membongkar borok eksploitasi dan imperialisme kolonial.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <time datetime="1945-06-01" class="timeline-year">1 Juni 1945</time>
+              <h3 class="timeline-heading">Kelahiran Falsafah Pancasila</h3>
+            </div>
+            <p class="timeline-text">
+              Menyampaikan pidato bersejarah di hadapan sidang BPUPKI yang merumuskan lima prinsip dasar negara merdeka, yang kemudian disahkan sebagai dasar negara Indonesia.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <time datetime="1945-08-17" class="timeline-year">17 Agustus 1945</time>
+              <h3 class="timeline-heading">Proklamasi Kemerdekaan Indonesia</h3>
+            </div>
+            <p class="timeline-text">
+              Bersama Mohammad Hatta memproklamasikan kemerdekaan Indonesia di Jalan Pegangsaan Timur 56 Jakarta, lalu terpilih secara aklamasi sebagai Presiden RI pertama.
+            </p>
+          </li>
+
+          <li class="timeline-item">
+            <div class="timeline-marker">
+              <time datetime="1955" class="timeline-year">1955</time>
+              <h3 class="timeline-heading">Inisiator Konferensi Asia Afrika (KAA)</h3>
+            </div>
+            <p class="timeline-text">
+              Menginisiasi KAA di Bandung yang melahirkan Dasasila Bandung, menjadi tonggak diplomasi dunia yang mendorong dekolonisasi negara-negara di benua Asia dan Afrika.
+            </p>
+          </li>
+        </ol>
+      </section>
+
+      <!-- SEKSI 3: TIGA KARTU GAGASAN BESAR -->
+      <section id="gagasan" class="card-section">
+        <h2 class="section-title">Gagasan &amp; Warisan Pemikiran</h2>
+        <p class="section-desc">Warisan konseptual monumental yang terus menjadi pedoman berbangsa dan bernegara:</p>
+
+        <div class="cards-grid">
+          <div class="feature-card">
+            <div class="card-icon" aria-hidden="true">★</div>
+            <h3 class="card-title">Pancasila</h3>
+            <p class="card-text">
+              Titik temu sekaligus fondasi filosofis bersama (<em>philosofische grondslag</em>) yang merekatkan kemajemukan bangsa dalam bingkai persatuan, keadilan sosial, dan ketuhanan.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon" aria-hidden="true">⚡</div>
+            <h3 class="card-title">Konsep Trisakti</h3>
+            <p class="card-text">
+              Doktrin kedaulatan menyeluruh yang menuntut bangsa Indonesia untuk: berdaulat di bidang politik, berdikari (berdiri di atas kaki sendiri) di bidang ekonomi, dan berkepribadian dalam kebudayaan.
+            </p>
+          </div>
+
+          <div class="feature-card">
+            <div class="card-icon" aria-hidden="true">🌐</div>
+            <h3 class="card-title">Gerakan Non-Blok</h3>
+            <p class="card-text">
+              Visi geopolitik berani untuk menolak hegemoni Perang Dingin, menegaskan komitmen Indonesia pada politik luar negeri bebas aktif demi perdamaian dunia yang abadi.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEKSI 4: ARTIKEL REFLEKSI KEPALHAWANAN -->
+      <article id="refleksi" class="card-section article-reflection">
+        <header class="article-header">
+          <span class="article-meta">Kajian Reflektif Kebangsaan</span>
+          <h2 class="article-title">Relevansi Nilai Kepahlawanan Soekarno di Era Digital</h2>
+        </header>
+        
+        <p class="paragraph">
+          Kepahlawanan Ir. Soekarno tidak semata-mata diukur dari keberanian fisik, melainkan dari kedalaman literasi, ketajaman analisis geopolitik, dan keteguhan visinya tentang persatuan bangsa. Di tengah derasnya arus disrupsi informasi dan polarisasi digital masa kini, teladan Bung Karno memberikan kompas moral yang sangat berharga.
+        </p>
+        <p class="paragraph">
+          Gagasan Trisakti, khususnya <em>berdikari secara ekonomi dan berdaulat secara teknologi</em>, sangat relevan bagi generasi muda pengembang perangkat lunak dan saintis data Indonesia. Semangat pantang menyerah Bung Karno mengajak kita untuk tidak sekadar menjadi konsumen teknologi global, melainkan pencipta solusi digital mandiri yang mengharumkan nama bangsa di panggung dunia.
+        </p>
+      </article>
+
+      <!-- SEKSI 5: FORM BUKU TAMU REFLEKSI -->
+      <section id="buku-tamu" class="card-section">
+        <h2 class="section-title">Buku Tamu &amp; Pesan Refleksi</h2>
+        <p class="section-desc">Silakan sampaikan apresiasi, kesan, atau catatan refleksi Anda terhadap figur Ir. Soekarno:</p>
+
+        <form action="#" method="post" class="guestbook-form" novalidate>
+          <div class="form-group">
+            <label for="nama-lengkap" class="form-label">Nama Lengkap <span class="required" aria-hidden="true">*</span></label>
+            <input 
+              type="text" 
+              id="nama-lengkap" 
+              name="nama_lengkap" 
+              class="form-control" 
+              placeholder="Contoh: Al-Bukhari Insan Kamil" 
+              required
+              autocomplete="name"
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="email-pengunjung" class="form-label">Alamat Email <span class="required" aria-hidden="true">*</span></label>
+            <input 
+              type="email" 
+              id="email-pengunjung" 
+              name="email_pengunjung" 
+              class="form-control" 
+              placeholder="nama@institusi.ac.id" 
+              required
+              autocomplete="email"
+            >
+          </div>
+
+          <fieldset class="form-fieldset">
+            <legend class="fieldset-legend">Kategori Pengunjung</legend>
+            <div class="radio-options-wrapper">
+              <div class="radio-option">
+                <input 
+                  type="radio" 
+                  id="kategori-pelajar" 
+                  name="kategori_pengunjung" 
+                  value="pelajar" 
+                  class="radio-input"
+                  checked
+                >
+                <label for="kategori-pelajar" class="radio-label">Pelajar / Mahasiswa</label>
+              </div>
+
+              <div class="radio-option">
+                <input 
+                  type="radio" 
+                  id="kategori-pendidik" 
+                  name="kategori_pengunjung" 
+                  value="pendidik" 
+                  class="radio-input"
+                >
+                <label for="kategori-pendidik" class="radio-label">Pendidik / Akademisi</label>
+              </div>
+
+              <div class="radio-option">
+                <input 
+                  type="radio" 
+                  id="kategori-umum" 
+                  name="kategori_pengunjung" 
+                  value="umum" 
+                  class="radio-input"
+                >
+                <label for="kategori-umum" class="radio-label">Masyarakat Umum</label>
+              </div>
+            </div>
+          </fieldset>
+
+          <div class="form-group">
+            <label for="pesan-refleksi" class="form-label">Pesan Refleksi / Komentar <span class="required" aria-hidden="true">*</span></label>
+            <textarea 
+              id="pesan-refleksi" 
+              name="pesan_refleksi" 
+              rows="4" 
+              class="form-control" 
+              placeholder="Tuliskan pelajaran kepahlawanan atau pesan inspiratif yang Anda dapatkan..."
+              required
+            ></textarea>
+          </div>
+
+          <div class="form-actions">
+            <button type="submit" class="btn-submit">
+              Kirim Pesan Refleksi
+            </button>
+          </div>
+        </form>
+      </section>
+
+    </main>
+
+    <!-- ========================================================
+         SIDEBAR KONTEN PELENGKAP (<aside>)
+         ======================================================== -->
+    <aside class="sidebar" aria-label="Informasi Tambahan dan Kutipan">
+      
+      <!-- KOTAK KUTIPAN TERKENAL -->
+      <div class="aside-box">
+        <h3 class="aside-title">Kutipan Bersejarah</h3>
+        
+        <blockquote class="quote-card">
+          <p class="quote-text">
+            &ldquo;Beri aku 1.000 orang tua, niscaya akan kucabut Semeru dari akarnya. Beri aku 10 pemuda, niscaya akan kuguncangkan dunia.&rdquo;
+          </p>
+          <footer class="quote-author">
+            <cite>— Ir. Soekarno</cite>
+          </footer>
+        </blockquote>
+
+        <blockquote class="quote-card">
+          <p class="quote-text">
+            &ldquo;Bangsa yang besar adalah bangsa yang menghormati jasa pahlawannya.&rdquo;
+          </p>
+          <footer class="quote-author">
+            <cite>— Pidato Hari Pahlawan 1961</cite>
+          </footer>
+        </blockquote>
+      </div>
+
+      <!-- KOTAK FAKTA SINGKAT -->
+      <div class="aside-box">
+        <h3 class="aside-title">Fakta Singkat Tokoh</h3>
+        <ul class="facts-list">
+          <li class="fact-item">
+            <span class="fact-label">Nama Lengkap</span>
+            <span class="fact-value">Dr. (H.C.) Ir. H. Soekarno</span>
+          </li>
+          <li class="fact-item">
+            <span class="fact-label">Nama Lahir</span>
+            <span class="fact-value">Koesno Sosrodihardjo</span>
+          </li>
+          <li class="fact-item">
+            <span class="fact-label">Tempat, Tgl Lahir</span>
+            <span class="fact-value">Surabaya, 6 Juni 1901</span>
+          </li>
+          <li class="fact-item">
+            <span class="fact-label">Wafat</span>
+            <span class="fact-value">Jakarta, 21 Juni 1970</span>
+          </li>
+          <li class="fact-item">
+            <span class="fact-label">Pendidikan</span>
+            <span class="fact-value">THS Bandoeng (Teknik Sipil/Arsitektur)</span>
+          </li>
+          <li class="fact-item">
+            <span class="fact-label">Masa Jabatan</span>
+            <span class="fact-value">18 Agustus 1945 – 12 Maret 1967</span>
+          </li>
+          <li class="fact-item">
+            <span class="fact-label">Gelar Pahlawan</span>
+            <span class="fact-value">Pahlawan Proklamator (1986), Pahlawan Nasional (2012)</span>
+          </li>
+        </ul>
+      </div>
+
+    </aside>
+
+  </div> <!-- Penutup .layout-wrapper -->
+
+  <!-- ========================================================
+       BAGIAN FOOTER: Kaki Halaman & Hak Cipta
+       ======================================================== -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <p class="footer-copyright">
+        &copy; 2024 Al-Bukhari Insan Kamil (NIM: 20240140270). Hak Cipta Dilindungi.
+      </p>
+      <p class="footer-academic">
+        Tugas Praktikum Pemrograman Web (Pertemuan 02 &amp; 03: HTML5 Semantik dan CSS3 Layout Responsif).
+        <br>
+        Program Studi Teknik Informatika / Teknologi Informasi.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
+
